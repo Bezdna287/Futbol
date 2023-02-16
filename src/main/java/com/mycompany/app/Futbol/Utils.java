@@ -4,11 +4,12 @@ import java.util.Random;
 
 public class Utils {
 	
+	//gives random score
 	public static int randomScore() {
 		Random rand = new Random();
 		return rand.nextInt(10);
 	}
-	
+	// mixing array of counties to make couples of them different for new game  
 	public static void shuffle(String [] arr){
         int index;
         String temp;
